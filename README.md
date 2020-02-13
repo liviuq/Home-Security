@@ -1,2 +1,3 @@
-# Home-Security
-This is an Arduino-based home security system that is also modular.
+This is the alpha version of the project so I'm excited to update it with more features down the road. Currently, it has got two arduino modules. The first one ( main_module) is the receiver and it has only an NRF24L01 connected to it. The second one ( keypad_module) Has the radio module with a 4x4 matrix keypad that is used to enter a passcode that starts with '*' and ends with '#'.  If the passcode is equal to the one in the receiver, it prints "FrntKpd" ( because I imagine using it at the front door or front gate). 
+The connections are shown in the code and I'm not going to write them down, as I'm going to update the master branch as much as possible.
+If there are any questions, don't hesitate to message me.
